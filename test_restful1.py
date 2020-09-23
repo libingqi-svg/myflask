@@ -1,19 +1,16 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 @Time    : 2020/7/27 17:17
 @Author  : Jaxson
 @FileName: test_restful1.py
 @Software: PyCharm
-'''
+"""
 
-'''
+"""
 flask restful 开发API接口
-'''
+"""
 from flask import Flask, request
 from flask_restful import Api, Resource, reqparse
-from flask_httpauth import HTTPTokenAuth
-import os
-from flask_sqlalchemy import SQLAlchemy
 
 # Flask相关变量声明
 app = Flask(__name__)
